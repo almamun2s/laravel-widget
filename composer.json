@@ -2,6 +2,7 @@
     "name": "almamun2s/laravel-widget",
     "description": "A test Laravel widget package",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Almamun2s\\LaravelWidget\\": "src/"
