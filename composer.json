@@ -1,0 +1,22 @@
+{
+    "name": "almamun2s/laravel-widget",
+    "description": "A test Laravel widget package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Almamun2s\\LaravelWidget\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Almamun2s\\LaravelWidget\\LaravelWidgetServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
